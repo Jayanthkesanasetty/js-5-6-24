@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <center>   <h1>CLICK ME </h1>
+    <p style="font-size: xx-large; font-weight: bolder;">HELLO MY COLOUR IS CHANGING</p>
+</center>
+<h2>NOTE:</h2>
+<h3>SINGLE  CLICK TO CHANGE COLOUR</h3>
+<h3>DOUBLE CLICK TO CHANGE TO ORIGINAL COLOUR</h3>
+<script>
+    
+      var a=document.getElementsByTagName("h1")
+        a[0].addEventListener("click",cal)
+        function cal() {
+            var b=document.getElementsByTagName("p")
+            b[0].style.color="red"
+        }
+        a[0].addEventListener("dblclick",call)
+      function call() {
+        var c=document.getElementsByTagName("p")
+            c[0].style.color="black"
+
+      }
+
+    
+</script>
+</body>
+</html>
